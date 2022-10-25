@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+#calender{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 900px;
+}
+
+.days{
+    font-family: 'Mountains of Christmas', cursive;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(13, 108, 203);
+    cursor: pointer;
+    
+}
+
+.event-images{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    position: absolute;
+    opacity: 0;
+    transition: ease-in 1s;
+}
+
+.event-click{
+    opacity: 1;
+    transition: ease-in 1s;
+}
+
+
+
+
